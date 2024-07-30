@@ -1,93 +1,64 @@
 <style>
-    .subscribe-button {
-        background-color: rgb(200, 0, 0);
-        color: white;
-        border: none;
-        border-radius: 2px;
-        cursor: pointer;
-        margin-right: 8px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 16;
-        padding-right: 16;
-        transition: opacity 0.15s;
-        vertical-align: top;
-    }
-    .subscribe-button:hover{
-        opacity: 0.8;
-    }
-    .subscribe-button:active{
-        opacity: 0.5;
-    }
 
-    .join-button {
-        background-color: rgb(255, 255, 255);
-        border-color: rgb(25, 128, 255);
-        border-style: solid;
-        border-width: 1px;
-        color: rgb(25, 128, 255);
-        padding-top: 9px;
-        padding-bottom: 9px;
-        padding-left: 16;
-        padding-right: 16;
-        border-radius: 2px;
-        cursor: pointer;
-        transition: background-color 0.15s,
-            color 0.15s;
-        vertical-align: top;
-    }
-    .join-button:hover{
-        background-color: rgb(25, 128, 255);
-        color: rgb(255, 255, 255);
-    }
-    .join-button:active{
-        opacity: 0.7;
-    }
+body {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background-color: #000;
+    background-image: url('./animated_bg_long.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    image-rendering: pixelated;
+    font-family: "8bitOperatorPlus-Regular",monospace;
+    text-shadow: 2px 2px #000;
+    font-size: 20px;
+    color: #fff;
+    font-smooth: never;
+    -webkit-font-smoothing: none
+}
 
-    .tweet-button {
-        background-color: rgb(0, 183, 255);
-        color: rgb(255, 255, 255);
-        border: none;
-        padding-top: 9px;
-        padding-bottom: 9px;
-        padding-left: 16px;
-        padding-right: 16px;
-        border-radius: 18px;
-        cursor: pointer;
-        font-weight: bold;
-        font-size: 15px;
-        margin-left: 8px;
-        transition: box-shadow 0.15s;
-        vertical-align: top;
-    }
-    .tweet-button:hover{
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    }
-    .page-title {
-        font-family: Arial;
-        font-weight: bold;
-        font-size: 24;
-        width: 300;
-        line-height: 26px;
-    }
-    .page-text {
-        font-family: Arial;
-        font-size: 18;
-        width: 300;
-        line-height: 26px;
-    }
+a,a code {
+    color: #00c8c8;
+    text-decoration: none
+}
+
+a:hover,a:hover code {
+    color: #0ff;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline
+}
+
+
 </style>
+<body align="center">
+    <h1 class="header">
+        <a target="_blank" href="./index.html">Home</a> 
+        <a target="_blank" href="./tutorial.html">Tutorials</a>
+        <hr>
+    </h1>
 
-<a href="./tutorials.html" target="_blank">
-    <button class="tweet-button">Tutorials</button>
-</a>
+    <img src="./title_logo_shadow.png">
 
-<p class="video-title">
-    UNDERTALE PLUS
-</p>
+    <p>Undertale Plus is an <a target="_blank" href="https://undertale.com/">Undertale</a> 
+    fangame and battle engine, made with <a target="_blank" href="https://love2d.org/">LÖVE</a>. 
+    It will allow to create custom maps, battles, cutscenes and even more!</p>
 
-<p class="page-text">
-    <b>Website's unfinished.<br>
-        THIS STUFF HARD.
-    </b>
-</p>
+    <hr><h2 class="c"><u>Downloading</u></h2><hr>
+    There are 2 different versions for you to download the Source Code Version and the Recent Release Version.
+
+    <h3 class="c"><u>Source Code Version</u></h3>
+    This version is recomended to make mods.<br>
+    This version requires you to download LÖVE. 
+    You will have to clone the git repository into a folder. This will download the source code to said folder, 
+    and it will be able to take future stable and tested updates. 
+    This version gives you a lot of freedom such as directly editing code for every aspect of the game 
+    to the point it's unrecognisable from Undertale if you really wanted to!
+
+    <h3 class="c"><u>Recent Release Version (Unreleased)</u></h3>
+
+    This version is recomended to play mods.<br>
+    The most recent version of Undertale Plus. 
+    Download it and extract the files. Extract and open the file titled ‘Undertale Plus’ and run the executable. 
+</body>
